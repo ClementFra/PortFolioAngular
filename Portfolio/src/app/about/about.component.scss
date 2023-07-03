@@ -1,0 +1,54 @@
+@import "../../assets/Sass/Utils/variables.scss";
+
+#About {
+  padding: 10px;
+  width: 50%;
+  margin: 10px 0 30px 470px;
+  h1,
+  h4,
+  p {
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
+      0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
+      0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
+      0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
+      0 0 2px black;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+  }
+  h4 {
+    text-align: center;
+    color: $color-primary;
+    font-weight: bolder;
+  }
+  p {
+    color: white;
+    font-style: italic;
+    font-size: 1.1em;
+    margin: 10px 50px 20px;
+    font-weight: bold;
+  }
+  button {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-left: 46%;
+    margin-bottom: 40px;
+    border-radius: 5em;
+    border: $color-primary;
+    background-color: $color-primary;
+    width: 100px;
+    height: 50px;
+    a {
+      text-decoration: none;
+      color: $color-fourth;
+    }
+  }
+  button:hover {
+    background-color: white;
+    box-shadow: 5px 5px 2px 1px $color-primary;
+  }
+}
+
+/**Responsive**/
