@@ -1,3 +1,5 @@
+@import "../../assets/Sass/Utils/variables.scss";
+
 header {
     display: flex;
     align-items: center;
@@ -15,7 +17,7 @@ header {
         margin-left: -10%;
         li {
           a {
-            color: #b83b09;
+            color: $color-secondary;
             text-decoration: none;
             font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
               "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -23,7 +25,7 @@ header {
           }
           a:hover {
             color: white;
-            text-decoration: underline #f56849;
+            text-decoration: underline $color-primary;
             text-underline-offset: 8px;
           }
         }
