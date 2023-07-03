@@ -1,0 +1,36 @@
+@import "../../assets/Sass/Utils/variables.scss";
+
+#presentation {
+    text-align: center;
+    margin-bottom: 15px;
+    h1 {
+      color: white;
+    }
+    h4 {
+      color: $color-ter;
+    }
+    img {
+      width: 15%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    button {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-size: 1.1em;
+      border-radius: 5em;
+      border: $color-primary;
+      background-color: $color-primary;
+      width: 150px;
+      height: 80px;
+      a {
+        text-decoration: none;
+        color: $color-fourth;
+      }
+    }
+    button:hover {
+      background-color: white;
+      box-shadow: 12px 12px 2px 1px $color-primary;
+    }
+  }
+
+    /**Responsive**/
