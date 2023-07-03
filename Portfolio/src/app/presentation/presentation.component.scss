@@ -34,3 +34,17 @@
   }
 
     /**Responsive**/
+
+    /*Tablette*/
+
+    @media screen and (max-width:912px) {
+      #presentation{
+        margin-left: -25%;
+      }
+    }
+
+    @media screen and (max-width:768px) {
+      #presentation{
+        margin-left: -25%;
+      }
+    }

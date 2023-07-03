@@ -30,3 +30,38 @@
 }
 
 /**Responsive**/
+
+/*Tablette*/
+
+@media screen and (max-width: 912px) {
+  #SKILLS {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    h1 {
+      margin-left: -25%;
+    }
+    article {
+      flex-direction: column;
+      img {
+        padding-right: 20%;
+        margin-left: 70px;
+        margin-bottom: 15px;
+        width: 120px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #SKILLS {
+    h1{
+      margin-left: -25%;
+    }
+    article {
+      img {
+        margin-left: 50px;
+      }
+    }
+  }
+}

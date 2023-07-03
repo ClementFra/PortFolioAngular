@@ -17,8 +17,22 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: $color-fourth;
   }
-  h5 {
-    font-size: 1em;
-    font-style: italic;
+}
+
+/*Responsive*/
+
+/*Tablette*/
+@media screen and (max-width: 912px) {
+  #CONTACT {
+    div {
+      margin-left: -25%;
+      p{
+        padding-left: 35%;
+        margin-right: 35%;
+      }
+    }
   }
+}
+
+@media screen and (max-width: 768px) {
 }

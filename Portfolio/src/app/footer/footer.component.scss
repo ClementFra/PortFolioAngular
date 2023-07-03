@@ -22,3 +22,16 @@ footer {
 }
 
 /**responsive**/
+
+/*Tablette*/
+@media screen and (max-width:912px) {
+  footer{
+    div{
+      margin-left: 25%;
+    }
+  }
+}
+
+@media screen and (max-width:768px) {
+  
+}

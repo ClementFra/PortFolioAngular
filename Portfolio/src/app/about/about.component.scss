@@ -52,3 +52,30 @@
 }
 
 /**Responsive**/
+
+/*Tablette*/
+
+@media screen and (max-width: 912px) {
+  #About {
+    margin-left: 12%;
+    p {
+      margin: 0;
+    }
+    button{
+      margin-left: 37%;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #About {
+    margin-left: 12%;
+    p {
+      margin: 0;
+    }
+    button{
+      margin-top: 15px;
+      margin-left: 33%;
+    }
+  }
+}

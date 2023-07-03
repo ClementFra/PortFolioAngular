@@ -34,3 +34,20 @@ header {
   }
 
   /**Responsive**/
+
+  /*Tablette*/
+
+  @media screen and (max-width:912px) {
+    header{
+      margin-left: -45% ;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    header{
+      margin-left: -50%;
+      a{
+        font-size: 0.9em;
+      }
+    }
+  }
