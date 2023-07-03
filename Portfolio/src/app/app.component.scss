@@ -1,2 +1,9 @@
 @import "../assets/Sass/Base/normalize.scss";
 @import "../assets/Sass/Base/settings.scss";
+
+/**Abckground section toolbar/presentation/about */
+
+div{
+    background-image: url(https://pictures.ubiq.fr/c55dd5a6-dd90-4181-90e7-6c5708333612/-/quality/lighter/-/resize/2000x/);
+    object-fit: cover;
+}
