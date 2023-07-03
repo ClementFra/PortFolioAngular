@@ -1,0 +1,142 @@
+@import "../../assets/Sass/Utils/variables.scss";
+
+#Project {
+  h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: $color-fourth;
+  }
+  h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: $color-fourth;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #Booki {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    div {
+      margin-left: 50px;
+      h4 {
+        text-decoration: underline $color-primary 3px;
+      }
+      p {
+        width: 60%;
+      }
+    }
+
+    img {
+      margin-top: 15px;
+      width: 90%;
+      border-radius: 15px;
+      margin-left: -30%;
+    }
+    img:hover {
+      opacity: 0.7;
+    }
+  }
+
+  #lapanthere {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 20px;
+    div {
+      margin-left: 50px;
+      h4 {
+        text-decoration: underline $color-primary 3px;
+      }
+      p {
+        width: 60%;
+      }
+    }
+
+    img {
+      margin-top: 15px;
+      width: 110%;
+      border-radius: 15px;
+      margin-left: -65%;
+    }
+    img:hover {
+      opacity: 0.7;
+    }
+  }
+  #Kanap {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 15px;
+    div {
+      margin-top: 40px;
+      margin-left: 50px;
+      h4 {
+        text-decoration: underline $color-primary 3px;
+      }
+      p {
+        width: 60%;
+      }
+    }
+
+    img {
+      margin-left: -50%;
+      width: 50%;
+    }
+    img:hover {
+      opacity: 0.7;
+    }
+  }
+
+  #Piquante {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    div {
+      margin-left: 50px;
+      h4 {
+        text-decoration: underline $color-primary 3px;
+      }
+    }
+    p {
+      width: 55%;
+    }
+    img {
+      margin-top: 15px;
+      margin-left: -65%;
+    }
+    img:hover {
+      opacity: 0.7;
+    }
+  }
+
+  #kasa {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 10px;
+    div {
+      margin-left: 50px;
+      h4 {
+        text-decoration: underline $color-primary 3px;
+      }
+    }
+    P {
+      width: 60%;
+    }
+    img {
+      margin-top: 15px;
+      margin-left: -70%;
+      width: 70%;
+    }
+    img:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+/**Responsive**/
