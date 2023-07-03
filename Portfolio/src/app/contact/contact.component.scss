@@ -1,0 +1,24 @@
+@import "../../assets/Sass/Utils/variables.scss";
+
+#CONTACT {
+  text-align: center;
+  background-color: lightgrey;
+  padding-bottom: 10px;
+  h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: $color-fifth;
+  }
+  h4 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: $color-fifth;
+  }
+  p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: $color-fourth;
+  }
+  h5 {
+    font-size: 1em;
+    font-style: italic;
+  }
+}
